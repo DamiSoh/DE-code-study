@@ -35,5 +35,5 @@ class Person:
 fred = Person('Ted', 'Williams')
 print('변경전', fred.full_name)
 
-fred.full_name = 'Ted Thecutee'
+fred.full_name = 'Ted Thecutee' #fred.full_name('Ted Thecutee') 가 아니라 fred.full_name = 'Ted Thecutee'와 같이 변수바꾸듯이 지정한다.
 print('변경 후', fred.first_name, fred.last_name, fred.full_name, end = " ")
